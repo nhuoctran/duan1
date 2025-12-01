@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="vi">
 <head>
@@ -60,4 +61,68 @@
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
 </body>
+=======
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Trang chủ</title>
+    <meta name="description" content="Trang demo index.html" />
+    <!-- Thêm file CSS tại đây nếu cần -->
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        /* Một số kiểu cơ bản để xem nhanh */
+        body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; }
+        header, footer { background:#0b5ea8; color:#fff; padding:16px; }
+        main { padding:16px; }
+        nav a { color: #fff; margin-right:12px; text-decoration:none; }
+        .container { max-width:900px; margin:0 auto; }
+    </style>
+</head>
+<body>
+<!-- Link tới main.js -->
+<script src="main.js" defer></script>
+    <header>
+        <div class="container">
+            <h1>Tiêu đề trang</h1>
+            <nav>
+                <a href="#">Trang chủ</a>
+                <a href="#">Giới thiệu</a>
+                <a href="#">Liên hệ</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section>
+                <h2>Chào mừng</h2>
+                <p>Đây là file index.html mẫu. Thay đổi nội dung, liên kết CSS/JS hoặc thêm phần tử theo nhu cầu dự án của bạn.</p>
+            </section>
+
+            <section>
+                <h3>Mẫu danh sách</h3>
+                <ul>
+                    <li>Mục 1</li>
+                    <li>Mục 2</li>
+                    <li>Mục 3</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Bản quyền</p>
+        </div>
+    </footer>
+
+    <!-- Thêm file JS tại đây nếu cần -->
+    <script>
+        // Thiết lập năm hiện tại trong footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+>>>>>>> a273df26610a57502ce11813e8a80ab23d0af867
 </html>
